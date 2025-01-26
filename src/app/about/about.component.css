@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: #0d47a1;
+  }
+  
+  p {
+    text-align: center;
+    color: #757575;
+  }
+
+ngx-particles {
+  color: #000000;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure particles stay in the background */
+  }
+  
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keep it in the background */
+    color: #ffffff;
+  }
+  
